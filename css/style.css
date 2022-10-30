@@ -32,13 +32,13 @@ a {
   --colorTextoTerciario: #000;
   /*------------------------- bordes -------------------------*/
   --colorBorde: #808080;
-  /*--------------------- recomendacione ---------------------*/
+  /*--------------------- recomendaciones ---------------------*/
   --colorRecomendaciones: #373737;
   /*------------------------- tiempo -------------------------*/
   --tiempoTexto: #ffffff;
   --tiempoFondo: #000000b6;
   /* --logoFontFamily */
-  /*--------------------- tama;o de letra ---------------------*/
+  /*--------------------- tamaño de letra ---------------------*/
   --tamanioPequenio: 12px;
   --tamanioPrincipal: 14px;
   --tamanioSecundario: 16px;
@@ -440,6 +440,7 @@ main .grid-videos {
   background: var(--colorCuaternario);
   padding: 15px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 main .grid-videos::-webkit-scrollbar {
   background: transparent;
